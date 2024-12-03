@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estética Automotiva</title>
+    <link rel="stylesheet" href="car.css">
+    <script src="car.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Estética Automotiva</h1>
+            <p>Seu carro como novo, sempre!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Transforme seu carro!</h2>
+        <p>Oferecemos os melhores serviços de estética automotiva com qualidade e precisão.</p>
+        <button onclick="scrollToSection('services')">Saiba Mais</button>
+    </section>
+
+    <section id="services">
+            <h2>Nossos Serviços</h2>
+            <div class="services-gallery">
+                <div class="service-card">
+                    <h3>Polimento</h3>
+                    <img src="carimg/polimento.PNG" alt="Antes e Depois da Higienização">
+                    <p>Deixe a pintura do seu carro brilhando como nova.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Higienização</h3>
+                    <img src="carimg/higinizaçaão.PNG" alt="Antes e Depois da Proteção de Pintura">
+                    <p>Interior impecável com limpeza profunda.</p>
+                </div>
+                <div class="service-card">
+                    <h3>proteção de pintura</h3>
+                    <img src="carimg/Proteção de Pintura.PNG" alt="Antes e Depois da Proteção de Pintura">
+                    <p>Interior impecável com limpeza profunda.</p>
+                </div>
+            </div>
+                <h2>Nossos Valores</h2>
+                <div class="pricing-table">
+                    <div class="pricing-card">
+                        <h3>Polimento</h3>
+                        <p>R$ 600,00</p>
+                        <p>Recupere o brilho do seu carro com um serviço completo de polimento.</p>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Higienização</h3>
+                        <p>R$ 700,00</p>
+                        <p>Interior impecável, com higienização de bancos, carpetes e mais.</p>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Proteção de Pintura</h3>
+                        <p>R$ 650,00</p>
+                        <p>Garanta proteção contra riscos e desgaste com a melhor tecnologia.</p>
+                    </div>
+                </div>
+    </section>
+
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Estética Automotiva. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

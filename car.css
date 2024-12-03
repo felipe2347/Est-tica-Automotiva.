@@ -1,0 +1,187 @@
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-bottom: 2px solid #444;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #00bcd4;
+}
+
+header .logo p {
+    font-size: 1rem;
+    margin: 0;
+    color: #bbb;
+}
+
+nav ul {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #00bcd4;
+    color: #000;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #222;
+    margin-bottom: 2rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #00bcd4;
+}
+
+.hero button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #0097a7;
+}
+
+/* Services Section */
+#services {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.services-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #111;
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+form input, form textarea, form button {
+    width: 80%;
+    max-width: 400px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #111;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #00bcd4;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0097a7;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+#pricing {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #111;
+    padding: 1rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.pricing-card h3 {
+    color: #00bcd4;
+    margin-bottom: 0.5rem;
+}
+
+.pricing-card p {
+    margin: 0.5rem 0;
+}
+
+.pricing-card p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00ff6a;
+}
